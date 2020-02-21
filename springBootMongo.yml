@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   labels:
     name: springboot
-  name: spring-controller
+  name: spring-controller-1
 spec:
   replicas: 1
   template:
@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      - image: sainadhdockerhub/automate-task-1
         name: springboot
         ports:
         - name: springboot
@@ -39,7 +39,7 @@ kind: ReplicationController
 metadata:
   labels:
     name: mongo
-  name: mongo-controller
+  name: mongo-controller-1
 spec:
   replicas: 1
   template:
