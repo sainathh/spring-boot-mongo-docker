@@ -10,9 +10,9 @@
 		<relativePath />
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mt</groupId>
-	<artifactId>spring-boot-mongo</artifactId>
-	<version>1.0</version>
+	<groupId>${groupId}</groupId>
+	<artifactId>${artifactId}</artifactId>
+	<version>${versionId}</version>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
