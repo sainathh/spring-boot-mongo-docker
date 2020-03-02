@@ -10,7 +10,7 @@
 		<relativePath />
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>${groupId}</groupId>
+	<groupId>com.mt</groupId>
 	<artifactId>${artifactId}</artifactId>
 	<version>${version}</version>
 	<properties>
